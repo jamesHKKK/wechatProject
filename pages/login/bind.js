@@ -4,6 +4,7 @@ const util = app.globalData.util
 const http = app.globalData.http
 const config = app.globalData.config
 const url = config.urls
+// const url = ''
 Page({
 
   /**
