@@ -1,0 +1,15 @@
+
+<view class="page-section">
+  <view class="page-section-image">
+    <image src="../../img/logo.png"></image>
+  </view>
+  <view class="page-section-view">
+    <view class="page-section-view-item page-item">
+      <button bindtap="bindLogin">绑定</button>
+    </view>
+    <view class="page-section-view-item">
+      <button bindtap="cancel">取消</button>
+    </view>
+  </view>
+</view>
+

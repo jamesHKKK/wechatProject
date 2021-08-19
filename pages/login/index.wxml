@@ -1,0 +1,18 @@
+
+<view class="page-section">
+  <view class="page-section-image">
+    <image src="../../img/icon/share-friend.png"></image>
+  </view>
+  <view class="page-section-view">
+    <input type="text" placeholder="请输入用户名" class="field-title-input" bindinput="loginName"/>
+    <input type="text" placeholder="请输入密码" class="field-title-input" bindinput="loginPassword"/>
+    <view class="page-section-view-item page-item">
+      <button bindtap="queryLogin">登录</button>
+    </view>
+    <view class="page-section-view-item">
+      <!-- <button bindtap="cancel">取消</button> -->
+      <!-- <navigator open-type="exit" target="miniProgram">取消</navigator> -->
+    </view>
+  </view>
+</view>
+

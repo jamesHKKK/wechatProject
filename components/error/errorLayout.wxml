@@ -1,0 +1,5 @@
+<!--component/error/errorLayout.wxml-->
+<view class='linear'  wx:if='{{show}}' catchtouchmove='errorMove' catchtap='errorTap'>
+  <image class='error-img' src='/assets/error-icon.png' mode='aspectFit' style='margin-top:{{top}}rpx' />
+  <text class='error-text'>{{errorTip}}<text class='error-retry' wx:if='{{eType!=3}}'>重试</text></text>
+</view>
