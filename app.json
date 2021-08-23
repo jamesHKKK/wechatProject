@@ -3,15 +3,15 @@
     "pages/login/index",
     "pages/index/index",
     "pages/form/index",
-    "pages/user/index"
-    
+    "pages/user/index",
+    "pages/statistics/index",
+    "pages/forecast/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0078f8",
     "navigationBarTitleText": "移动生产管理系统",
     "navigationBarTextStyle": "white"
-    
   },
   "tabBar": {
     "color": "#898989",
@@ -34,13 +34,13 @@
       {
         "iconPath": "img/tab-user.png",
         "selectedIconPath": "img/tab-user-active.png",
-        "pagePath": "pages/user/index",
+        "pagePath": "pages/statistics/index",
         "text": "统计"
       },
       {
         "iconPath": "img/tab-user.png",
         "selectedIconPath": "img/tab-user-active.png",
-        "pagePath": "pages/user/index",
+        "pagePath": "pages/forecast/index",
         "text": "预测"
       },
       {
