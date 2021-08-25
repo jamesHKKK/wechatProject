@@ -53,6 +53,9 @@ Page({
     //   fail() {}
     // })
   },
+  btnclick:function(){
+    console.log(45)
+  },
   cancel:function(){
 
   },

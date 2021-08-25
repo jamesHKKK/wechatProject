@@ -7,10 +7,16 @@ page {
   padding:200rpx 50rpx 0;
 }
 .page-section-image{
-  width:156rpx;
-  height: 156rpx;
+  width:226rpx;
+  height: 155rpx;
   margin: 0 auto;
-  margin-bottom: 50rpx;
+  margin-bottom: 35rpx;
+  margin-left: 35%
+}
+.page-section-text{
+   font-size: 38rpx;
+   color: #fff;
+   margin-bottom: 35rpx;
 }
 .field-view-title {
   width: 100%;
@@ -74,4 +80,17 @@ page {
 }
 .page-item button{
   background-color: #f87200;
+}
+.page-section-view{
+  position: relative
+}
+.page-select-image{
+   position: absolute;
+   right: 20rpx;
+   top: 112rpx;
+}
+.page-select-image image{
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 22
 }
