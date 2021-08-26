@@ -10,7 +10,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    scenes:''
+    scenes:'',
+    typeOption:"password",
+    userpassword:"",
+    username:""
   },
 
   /**
@@ -54,7 +57,18 @@ Page({
     // })
   },
   btnclick:function(){
-    console.log(45)
+    this.setData({ typeOption: this.data.typeOption == "password" ? "text" : "password"});
+    console.log(this.data.typeOption)
+  },
+  loginName:function(e){
+    this.setData({
+      username: e.detail.value
+    })
+  },
+  loginPassword:function(e){
+    this.setData({
+      userpassword: e.detail.value
+    })
   },
   cancel:function(){
 

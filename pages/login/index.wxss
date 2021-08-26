@@ -29,16 +29,19 @@ page {
 
 .field-title-input {
   width: 100%;
-  height: 80rpx;
-  line-height: 80rpx;
-  min-height: 80rpx;
-  font-size: 28rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  min-height: 90rpx;
+  font-size: 30rpx;
   position: relative;
-  padding: 0 30rpx;
+  padding: 0rpx 30rpx;
   box-sizing: border-box;
   border-radius: 8rpx;
-  background-color: #fff;
+  background-color: #4c94fc;
   margin:20rpx 0;
+  text-align: left;
+  caret-color: white;
+  color: #fff
 }
 
 .field-title-input::before {
@@ -51,11 +54,16 @@ page {
   left: 0;
   top: 0;
   border-radius: 8px;
-  border: 1px solid #BABABA;
+  border: 1px solid #1775fb;
   -webkit-transform: scale(0.5);
   -webkit-transform-origin: 0 0;
   transform: scale(0.5);
   transform-origin: 0 0;
+}
+.input-placeholder {
+      color:#e5e5e5;
+      font-size:30rpx;
+      text-align: left
 }
 .page-section-image image{
   width: 100%;
@@ -87,10 +95,10 @@ page {
 .page-select-image{
    position: absolute;
    right: 20rpx;
-   top: 112rpx;
+   top: 138rpx;
+   z-index: 22
 }
 .page-select-image image{
-  width: 50rpx;
-  height: 50rpx;
-  z-index: 22
+  width: 55rpx;
+  height: 33rpx;
 }

@@ -4,13 +4,13 @@
     <image src="../../img/main.png"></image>
   </view>
   <view class="page-section-text">
-     <text  bindtap="btnclick">移动生产管理系统</text>
+     <text>移动生产管理系统</text>
   </view>
   <view class="page-section-view">
-    <input type="text" placeholder="请输入用户名" class="field-title-input" bindinput="loginName"/>
-    <input type="text" placeholder="请输入密码" class="field-title-input" bindinput="loginPassword"/>
+    <input type="text" placeholder="请输入用户名"  confirm-type="next"  placeholder-class="input-placeholder" class="field-title-input" bindinput="loginName"/>
+    <input type="{{typeOption}}" placeholder="请输入密码"  confirm-type="next"  placeholder-class="input-placeholder" class="field-title-input" bindinput="loginPassword"/>
     <view class="page-select-image">
-       <image src="../../img/tab-home.png"></image>
+       <image src="../../img/u17.png" bindtap="btnclick"></image>
     </view>
     <view class="page-section-view-item page-item">
       <button bindtap="queryLogin">登录</button>
