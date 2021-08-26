@@ -1,1 +1,5 @@
-<view  class="page-section">sdfs</view>
+<!-- 设置页面-->
+<view>
+   <view class="boxList">每日简报</view>
+   <view class="boxList">每日简报</view>
+</view>
