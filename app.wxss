@@ -19,3 +19,6 @@
   font-size: 28rpx;
   color: #bababa
 }
+page{
+  background: #f2f2f0;
+}

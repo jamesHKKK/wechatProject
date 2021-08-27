@@ -1,0 +1,8 @@
+.forecastTitle{
+    margin: 20rpx;
+}
+.forecastBox{
+    width: 100%;
+    height: 500rpx;
+    background: #fff;
+}

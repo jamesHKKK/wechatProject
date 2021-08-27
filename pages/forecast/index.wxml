@@ -1,0 +1,6 @@
+<!-- 预测页面 -->
+<view>
+    <view class="forecastTitle">24小时功率预测</view>
+    <view class="forecastBox">
+    </view>
+</view>
