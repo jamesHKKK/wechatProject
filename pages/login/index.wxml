@@ -7,8 +7,8 @@
      <text>移动生产管理系统</text>
   </view>
   <view class="page-section-view">
-    <input type="text" placeholder="请输入用户名"  confirm-type="next"  placeholder-class="input-placeholder" class="field-title-input" bindinput="loginName"/>
-    <input type="{{typeOption}}" placeholder="请输入密码"  confirm-type="next"  placeholder-class="input-placeholder" class="field-title-input" bindinput="loginPassword"/>
+    <input type="text" placeholder="请输入用户名" value='{{username}}' confirm-type="next"  placeholder-class="input-placeholder" class="field-title-input" bindinput="loginName"/>
+    <input type="text" placeholder="请输入密码" value='{{userpassword}}' confirm-type="next"  placeholder-class="input-placeholder" class="field-title-input" bindinput="loginPassword"/>
     <view class="page-select-image">
        <image src="../../img/u17.png" bindtap="btnclick"></image>
     </view>

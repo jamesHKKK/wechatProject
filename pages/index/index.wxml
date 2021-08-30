@@ -1,0 +1,43 @@
+<view>
+    <view class="mianPage">
+          <view class="mainTitle">
+            <text>公司数据</text>
+            <view class="titleMore">查看更多</view>
+          </view>
+          <view class="mainContain">
+             <view class="containflex">
+                <text>装机容量</text>
+                <text>1224.05</text>
+                <text>MW</text>
+             </view>
+               <view class="containflex">
+                <text>AGC</text>
+                <text>1224.00</text>
+                <text>MW</text>
+             </view>
+               <view class="containflex">
+                <text>实发功率</text>
+                <text>520.54</text>
+                <text>MW</text>
+             </view>
+              <view class="containflex">
+                <text>实时风速</text>
+                <text>7.59</text>
+                <text>MW</text>
+             </view>
+               <view class="containflex">
+                <text>实时发电量</text>
+                <text>488.00</text>
+                <text>MW</text>
+             </view>
+               <view class="containflex">
+                <text>预测功率</text>
+                <text>700.16</text>
+                <text>MW</text>
+             </view>
+          </view>
+    </view>
+    <view class="map_container"> 
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="10"  markers="{{markers}}" bindmarkertap="makertap"></map> 
+</view> 
+</view>

@@ -11,9 +11,9 @@ Page({
    */
   data: {
     scenes:'',
-    typeOption:"password",
     userpassword:"",
-    username:""
+    username:"",
+    userpasswordnew:""
   },
 
   /**
@@ -57,8 +57,13 @@ Page({
     // })
   },
   btnclick:function(){
-    this.setData({ typeOption: this.data.typeOption == "password" ? "text" : "password"});
-    console.log(this.data.typeOption)
+    let str=""
+    for (var i = 0; i < this.data.userpassword.length;i++){
+      str=str+"*"
+    }
+    this.setData({
+      userpassword: str
+    })
   },
   loginName:function(e){
     this.setData({
@@ -67,7 +72,8 @@ Page({
   },
   loginPassword:function(e){
     this.setData({
-      userpassword: e.detail.value
+      userpassword: e.detail.value,
+      userpasswordnew
     })
   },
   cancel:function(){

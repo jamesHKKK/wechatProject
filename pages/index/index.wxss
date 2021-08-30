@@ -1,0 +1,46 @@
+.mianPage{
+   font-size: 35rpx;
+   color: #333333;
+   padding: 30rpx 15rpx 30rpx 15rpx;
+}
+.mainTitle{
+  width: 100%;
+  height: auto;
+  font-weight: bolder;
+  padding-bottom: 10rpx;
+  display: flex;
+  justify-content: space-between
+}
+.mainTitle .titleMore{
+  font-weight: normal;
+  color: #1b9adc
+}
+.mainContain{
+  display: flex;
+  flex-wrap: wrap;
+}
+.containflex{
+   width: 32%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 20rpx;
+}
+.containflex text{
+  margin-top: 8rpx;
+}
+.containflex text:nth-of-type(2){
+   color: #2d7cf2;
+}
+.containflex text:nth-of-type(3){
+   color: #828282;
+}
+.map_container{ 
+    height: 220px; 
+    width: 100%; 
+} 
+.map { 
+    height: 100%; 
+    width: 100%; 
+}
