@@ -1,0 +1,36 @@
+<view>
+    <view class="timeBox"></view>
+    <view class="textBox">
+        <view class="statisticsTitle">风电指标</view>
+        <view class="statisticsTime">数据更新至：<text>2021-08-30</text></view>
+    </view>
+    <view class="tableBox">
+    
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">场站</view>
+    <view class="th">发电量</view>
+    <view class="th ">平均风速</view>
+    <view class="th ">上网电量</view>
+    <view class="th ">利用小时</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+      <view class="td">{{item.dianliang}}</view>
+      <view class="td">{{item.time}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.type}}</view>
+      <view class="td">{{item.dianliang}}</view>
+      <view class="td">{{item.time}}</view>
+    </view>
+  </block>
+</view>
+    </view>
+
+</view>
