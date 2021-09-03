@@ -1,9 +1,11 @@
 <!-- 设置页面-->
 <view class="userBox">
-   <view class="boxList">
-      <image src="../../img/userImg/u1198.png" class="boxImg"></image>
-      <view class="boxText">每日简报</view>
-   </view>
+   <navigator url="../../pages/bulletin/bulletin">
+      <view class="boxList">
+         <image src="../../img/userImg/u1198.png" class="boxImg"></image>
+         <view class="boxText">每日简报</view>
+      </view>
+   </navigator>
    <view class="boxList">
       <image src="../../img/userImg/u1199.png" class="boxImg"></image>
       <view class="boxText">自动刷新</view>

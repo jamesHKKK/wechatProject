@@ -1,0 +1,46 @@
+.formTop{
+    width: 100%;
+    height: 100rpx;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.topList{
+    white-space: nowrap;
+    /* padding-top: 30rpx; */
+    width: 100%;
+}
+
+.formContent{
+    margin-top: 130rpx;
+}
+.formText{
+    margin: 0 0 40rpx 20rpx;
+}
+
+.formBox{
+    width: 100%;
+    height: 500rpx;
+    background: #fff;
+    padding-top: 30rpx;
+    margin-bottom: 15rpx;
+}
+
+
+/* 折线图 */
+ec-canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .sel-item{
+    padding-bottom: 30rpx;
+    margin: 30rpx;
+  }
+  .active{
+      color: #1775fb;
+      display: inline-block;
+      border-bottom: 1px solid #1775fb;
+  }

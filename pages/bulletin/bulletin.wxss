@@ -1,0 +1,35 @@
+/* pages/bulletin/bulletin.wxss */
+.title{
+    width: 100%;
+    height: 100rpx;
+    background: #fff;
+}
+.content{
+    width: 90%;
+    height: 500rpx;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 20rpx;
+}
+.contentFirst{
+    width: 100%;
+    height: 100rpx;
+    background: rgb(250,250,250);
+    box-sizing: border-box;
+    line-height: 60rpx;
+    padding: 20rpx;
+}
+.contentList{
+    width: 94%;
+    height: 100rpx;
+    margin: 0 auto;
+    box-sizing: border-box;
+    line-height: 100rpx;
+    border-bottom: 2px solid rgb(249,249,249);
+}
+.textcolor{
+    color: rgb(133,133,133);
+}
+.listRight{
+    float: right;
+}

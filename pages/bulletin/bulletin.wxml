@@ -1,0 +1,72 @@
+<!--pages/bulletin/bulletin.wxml-->
+<view>
+    <view class="title">
+    </view>
+    <view class="content">
+        <view class="contentFirst">
+            <text>全公司</text>
+            <text class="listRight textcolor">2021-04-24</text>
+        </view>
+        <view class="contentList">
+            <text>日平均风速</text>
+            <text class="listRight">7.73m/s</text>
+        </view>
+        <view class="contentList">
+            <text>日发电量</text>
+            <text class="listRight">1734.0万kwh</text>
+        </view>
+        <view class="contentList">
+            <text>月累计发电量</text>
+            <text class="listRight">0.0万kwh</text>
+        </view>
+        <view class="contentList">
+            <text>年累计发电量</text>
+            <text class="listRight">90994.0万kwh</text>
+        </view>
+
+    </view>
+    <view class="content">
+        <view class="contentFirst">
+            <text>河口</text>
+            <text class="listRight textcolor">2021-04-24</text>
+        </view>
+        <view class="contentList">
+            <text>日平均风速</text>
+            <text class="listRight">8.85m/s</text>
+        </view>
+        <view class="contentList">
+            <text>日发电量</text>
+            <text class="listRight">522.0万kwh</text>
+        </view>
+        <view class="contentList">
+            <text>月累计发电量</text>
+            <text class="listRight">0.0万kwh</text>
+        </view>
+        <view class="contentList">
+            <text>年累计发电量</text>
+            <text class="listRight">20347.0万kwh</text>
+        </view>
+    </view>
+    <view class="content">
+        <view class="contentFirst">
+            <text>羊口</text>
+            <text class="listRight textcolor">2021-04-24</text>
+        </view>
+        <view class="contentList">
+            <text>日平均风速</text>
+            <text class="listRight">7.73m/s</text>
+        </view>
+        <view class="contentList">
+            <text>日发电量</text>
+            <text class="listRight">1734.0万kwh</text>
+        </view>
+        <view class="contentList">
+            <text>月累计发电量</text>
+            <text class="listRight">0.0万kwh</text>
+        </view>
+        <view class="contentList">
+            <text>年累计发电量</text>
+            <text class="listRight">90994.0万kwh</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+<!-- 指标内容 -->
+<view>
+    <view class="formTop">
+        <scroll-view class="topList" scroll-x="true">
+            <text wx:for="{{campusList}}" wx:for-item="campus" wx:key="campusId" bindtap="chooseCampus" class="sel-item {{currentCampus==campus.campusId?'active':''}}" data-id="{{campus.campusId}}">{{campus.name}}</text>
+        </scroll-view>
+    </view>
+    <view class="formContent">
+        <view class="formText">数据截至：<text>2021-07-28</text></view>
+        <view class="formBox">
+            <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec1 }}"></ec-canvas>
+        </view>
+        <view class="formBox">
+            <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec2 }}"></ec-canvas>
+        </view>
+        <view class="formBox">
+            <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec3 }}"></ec-canvas>
+        </view>
+
+    </view>
+</view>
