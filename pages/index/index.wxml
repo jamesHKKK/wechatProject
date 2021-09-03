@@ -1,4 +1,4 @@
-<view>
+<view class="indexClass">
     <view class="mianPage">
           <view class="mainTitle">
             <text>公司数据</text>
@@ -38,6 +38,48 @@
           </view>
     </view>
     <view class="map_container"> 
-  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="10"  markers="{{markers}}" bindmarkertap="makertap"></map> 
-</view> 
+       <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="10"  markers="{{markers}}" bindmarkertap="makertap"></map> 
+  </view> 
+  <view class="translate">
+    <view class="fanpv {{num==0?'active':''}}">风力发电机组</view>
+    <view class="fanpv {{num==1?'active':''}}">光伏逆变器</view>
+  </view>
+    <view class="mianPage">
+          <view class="mainTitle">
+            <text>统计数据</text>
+          </view>
+          <view class="mainContain">
+             <view class="containflex">
+                <text>日发电量</text>
+                <text>488.09</text>
+                <text>万KWH</text>
+             </view>
+               <view class="containflex">
+                <text>月发电量</text>
+                <text>18387.00</text>
+                <text>万KWH</text>
+             </view>
+               <view class="containflex">
+                <text>年发电量</text>
+                <text>88785.00</text>
+                <text>万KWH</text>
+             </view>
+              <view class="containflex">
+                <text>上网电量</text>
+                <text>488.09</text>
+                <text>万KWH</text>
+             </view>
+               <view class="containflex">
+                <text>月计划电量</text>
+                <text>18387.00</text>
+                <text>万KWH</text>
+             </view>
+               <view class="containflex">
+                <text>年计划电量</text>
+                <text>88785.00</text>
+                <text>万KWH</text>
+             </view>
+          </view>
+    </view>
+
 </view>

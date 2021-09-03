@@ -6,7 +6,8 @@ Page({
     markers: [],
     latitude: '45',
     longitude: '112',
-    placeData: {}
+    placeData: {},
+    num:0
   },
   makertap: function (e) {
     var that = this;
